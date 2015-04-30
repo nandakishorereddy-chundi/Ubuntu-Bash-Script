@@ -15,13 +15,15 @@ sudo apt-get install flashplugin-installer
 
 #installing vlc player
 echo " <---------------------------------------------  INSTALLING VLC PLAYER  --------------------------------------------->"
+sudo apt-get install vlc
 
 # for setting .vimrc file
 echo "set nu" >> .vimrc
 echo "set cindent" >> .vimrc
-echo "set autoindnet" >> .vimrc
+echo "set autoindent" >> .vimrc
 
 sudo apt-get update && sudo apt-get upgrade
+
 # installing chrome
 echo " <---------------------------------------------  INSTALLING CHROME  --------------------------------------------->"
 
